@@ -31,6 +31,14 @@
 $ npm install
 ```
 
+## API Documentation
+The API is documented using Swagger.
+
+Swagger is configured using the NestJS compiler plugin to automatically generate OpenAPI metadata directly from DTOs, reducing boilerplate and keeping the documentation in sync with the code.
+
+Access Swagger UI at: http://localhost:3000/api
+
+
 ## Compile and run the project
 
 ```bash
